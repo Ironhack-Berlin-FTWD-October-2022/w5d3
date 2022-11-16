@@ -41,3 +41,10 @@ Install needed packages:
 $ npx ironlauncher@latest node-basic-auth
 $ npm install bcryptjs express-session connect-mongo 
 ```
+
+We need to add a .env-file. It contains the MongoDB-URL and the express-session-secret:
+```
+PORT=3000
+MONGODB_URI=<URL to MongoDB>
+SECRET=<session secret>
+```
